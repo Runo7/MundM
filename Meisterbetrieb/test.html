@@ -1,0 +1,179 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Partner Test</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f3f4f6;
+    }
+
+    /* ----- Partner-Section ----- */
+
+    /* ----- Process Section (How we work) ----- */
+
+.process {
+  background-color: #f9fafb;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 3.2rem 0;
+}
+
+.process-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+/* kleiner Label-Text oben */
+.process-kicker {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #9ca3af;
+  margin-bottom: 0.4rem;
+}
+
+/* Haupttitel */
+.process-title {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.6rem;
+}
+
+/* Einleitungstext, zentriert und begrenzt */
+.process-intro {
+  max-width: 640px;
+  margin: 0 auto 2.2rem auto;
+  color: #4b5563;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* Grid mit 4 Steps */
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+/* einzelne Step-Karte */
+.process-card {
+  background-color: #ffffff;
+  border-radius: 1.2rem;
+  padding: 1.4rem 1.2rem 1.6rem;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.process-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.10);
+  border-color: #d1d5db;
+}
+
+/* Icon oben – runder Badge */
+.process-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  background: radial-gradient(circle at 30% 30%, #facc15, #eab308);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 25px rgba(234, 179, 8, 0.6);
+}
+
+.process-icon span {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+/* Überschrift des Steps */
+.process-card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+/* Step-Text */
+.process-card-text {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #4b5563;
+}
+
+  </style>
+</head>
+<body>
+
+  <section class="process" id="process">
+    <div class="process-inner">
+      <p class="process-kicker">Step by step</p>
+      <h2 class="process-title">How we work with you</h2>
+      <p class="process-intro">
+        We follow a clear process, so you know exactly what to expect – from the first call to the final handover of your new system.
+      </p>
+
+      <div class="process-grid">
+        <!-- Step 1 -->
+        <article class="process-card">
+          <div class="process-icon">
+            <span>1</span>
+          </div>
+          <h3 class="process-card-title">Initial consultation</h3>
+          <p class="process-card-text">
+            Short call to understand your building, your current heating setup and what you want to achieve in terms of comfort and running costs.
+          </p>
+        </article>
+
+        <!-- Step 2 -->
+        <article class="process-card">
+          <div class="process-icon">
+            <span>2</span>
+          </div>
+          <h3 class="process-card-title">On-site assessment</h3>
+          <p class="process-card-text">
+            We visit your home in Berlin or Brandenburg, check space, insulation and hydraulics, and confirm whether a heat pump is the right choice.
+          </p>
+        </article>
+
+        <!-- Step 3 -->
+        <article class="process-card">
+          <div class="process-icon">
+            <span>3</span>
+          </div>
+          <h3 class="process-card-title">Design & fixed offer</h3>
+          <p class="process-card-text">
+            We size the system, select the components and send you a clear, transparent offer including installation and any optional services.
+          </p>
+        </article>
+
+        <!-- Step 4 -->
+        <article class="process-card">
+          <div class="process-icon">
+            <span>4</span>
+          </div>
+          <h3 class="process-card-title">Installation & handover</h3>
+          <p class="process-card-text">
+            Our team installs and commissions the system and walks you through the settings, so you can use it confidently from day one.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+</body>
+</html>
